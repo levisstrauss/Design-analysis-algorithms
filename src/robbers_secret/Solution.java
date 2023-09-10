@@ -55,6 +55,8 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 import java.util.Scanner;
+
+// Recursion solution
 public class Solution {
 
     public static void main(String[] args) {
@@ -79,3 +81,55 @@ public class Solution {
     }
 
 }
+
+// None recursive solution using stack
+
+/*
+import java.util.Scanner;
+import java.util.Stack;
+
+public class Solution2 {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String alphabet = scanner.nextLine();
+        generateStrings(alphabet);
+    }
+
+    static void generateStrings(String alphabet) {
+        Stack<State> stack = new Stack<>();
+        stack.push(new State("", alphabet));
+
+        while (!stack.isEmpty()) {
+            State currentState = stack.pop();
+            String prefix = currentState.prefix;
+            String remaining = currentState.remaining;
+
+            System.out.println("The prefix: " + prefix);
+            System.out.println("The remaining: " + remaining);
+
+            if (!prefix.isEmpty()) {
+                System.out.println(new StringBuilder(prefix).reverse());
+            }
+
+            // Reverse the order in which states are pushed onto the stack.
+            for (int i = remaining.length() - 1; i >= 0; i--) {
+                char ch = remaining.charAt(i);
+                System.out.println("The ch value: " + ch);
+                String nextRemaining = remaining.substring(i + 1);
+                stack.push(new State(prefix + ch, nextRemaining));
+            }
+        }
+    }
+
+    static class State {
+        String prefix;
+        String remaining;
+
+        State(String prefix, String remaining) {
+            this.prefix = prefix;
+            this.remaining = remaining;
+        }
+    }
+}
+ */
