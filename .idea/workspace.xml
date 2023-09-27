@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a530e9ba-47ac-4503-93d4-358d37b5ec56" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Optimization/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Optimization/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Optimization/Solution3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/robbers_secret/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/robbers_secret/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +40,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -47,6 +53,82 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager" selected="Application.Solution3 (3)">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Optimization.Solution" />
+      <module name="Design-analysis-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Optimization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Optimization.Solution3" />
+      <module name="Design-analysis-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Optimization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution3 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Optimization.Solution3" />
+      <module name="Design-analysis-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Optimization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution3 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Optimization.Solution3" />
+      <module name="Design-analysis-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Optimization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Optimization.Solution3" />
+      <module name="Design-analysis-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Optimization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Solution3 (3)" />
+        <item itemvalue="Application.Solution3 (2)" />
+        <item itemvalue="Application.Solution3" />
+        <item itemvalue="Application.Solution3 (1)" />
+        <item itemvalue="Application.Solution" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,6 +139,9 @@
       <updated>1694218066694</updated>
       <workItem from="1694218067702" duration="858000" />
       <workItem from="1694218962103" duration="170000" />
+      <workItem from="1694348069967" duration="136000" />
+      <workItem from="1695524985403" duration="1670000" />
+      <workItem from="1695819516230" duration="5913000" />
     </task>
     <servers />
   </component>
